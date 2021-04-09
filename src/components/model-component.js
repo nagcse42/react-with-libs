@@ -14,6 +14,14 @@ function ModelComponent() {
         isOpen={openModel}
         onRequestClose={() => setOpenModel(true)}
         shouldCloseOnOverlayClick={false}
+        style={{
+          overlay: {
+            backgroundColor: "grey"
+          },
+          content: {
+            color: "#0094ff"
+          }
+        }}
       >
         <h2>Model Header</h2>
         <p>Model content</p>
