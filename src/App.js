@@ -4,6 +4,7 @@ import NotificationToast from "./components/notifaction-toast";
 import ModelComponent from "./components/model-component";
 import ToolTipComponent from "./components/tool-tip-component";
 import CountUpNums from "./components/count-up";
+import CreditCardComponent from "./components/credit-card-component";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ModelComponent></ModelComponent>
       <ToolTipComponent></ToolTipComponent>
       <CountUpNums></CountUpNums>
+      <CreditCardComponent></CreditCardComponent>
     </div>
   );
 }
