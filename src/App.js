@@ -10,6 +10,7 @@ import CreditCardComponent from "./components/credit-card-component";
 import DatePickerComponent from "./components/date-picker.component";
 import VideoPlayer from "./components/video-player";
 import Spinners from "./components/spinners";
+import ChartSample from "./components/chart-sample";
 
 function App() {
   return (
@@ -45,6 +46,9 @@ function App() {
           </li>
           <li>
             <Link to="/spinners">Spinners</Link>
+          </li>
+          <li>
+            <Link to="/charts">Charts</Link>
           </li>
         </ul>
         <hr />
@@ -87,6 +91,10 @@ function App() {
           <Route path="/Spinners">
             {" "}
             <Spinners />
+          </Route>
+          <Route path="/charts">
+            {" "}
+            <ChartSample />
           </Route>
         </Switch>
       </div>
