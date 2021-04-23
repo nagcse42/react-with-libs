@@ -8,6 +8,7 @@ import ToolTipComponent from "./components/tool-tip-component";
 import CountUpNums from "./components/count-up";
 import CreditCardComponent from "./components/credit-card-component";
 import DatePickerComponent from "./components/date-picker.component";
+import VideoPlayer from "./components/video-player";
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
           </li>
           <li>
             <Link to="/date-picker">Date Picker</Link>
+          </li>
+          <li>
+            <Link to="/video-player">Video Player</Link>
           </li>
         </ul>
         <hr />
@@ -71,6 +75,10 @@ function App() {
           <Route path="/date-picker">
             {" "}
             <DatePickerComponent />
+          </Route>
+          <Route path="/video-player">
+            {" "}
+            <VideoPlayer />
           </Route>
         </Switch>
       </div>
